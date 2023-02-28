@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://www.cvwizard.es/favicon-512.png">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!--Archivo de estilo de w3schools para columnas responsivas (https://www.w3schools.com/w3css/w3css_responsive.asp)-->
+    <script src="https://kit.fontawesome.com/41b05b7557.js" crossorigin="anonymous"></script> <!--Script para iconos (https://fontawesome.com/)-->
+    <title>Curriculum Vitae</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <script src="JS/function.js"></script>
+    
+    <header>
+        <h1>Curriculum Vitae</h1>
+    </header>   
+
+    <div class="w3-row"> 
+        <section>   
+            <div id=Columna class="w3-col m4 l3">
+                <img id="FotoPerfil" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Foto de perfil">
+                <h2 class="Center">Kirk Mason</h2>
+
+                <nav>
+                    <ul>
+                        <li><a href="Index.html"><i class="fa-solid fa-user fa-2xl" onmouseover="MostrarTexto1()" onmouseleave="OcultarTexto()"></i></a></li>
+                        <li><h4 id="Datos"></h4></li>
+                        <li><a href="Formacion.html"><i class="fa-solid fa-book fa-2xl" onmouseover="MostrarTexto2()" onmouseleave="OcultarTexto()"></i></a></li>
+                        <li><h4 id="Formacion"></h4></li>
+                        <li><a href="Experiencia.html"><i class="fa-solid fa-flask fa-2xl" onmouseover="MostrarTexto3()" onmouseleave="OcultarTexto()"></i></a></li>
+                        <li><h4 id="Experiencia"></h4></li>
+                        <li><a href="Habilidades.html"><i class="fa-solid fa-code fa-2xl" onmouseover="MostrarTexto4()" onmouseleave="OcultarTexto()"></i></a></li>
+                        <li><h4 id="Habilidades"></h4></li>
+                        <li><a href="Idiomas.html"><i class="fa-solid fa-comments fa-2xl" onmouseover="MostrarTexto5()" onmouseleave="OcultarTexto()"></i></a></li>
+                        <li><h4 id="Idiomas"></h4></li>
+                    </ul>
+                </nav>
+            </div>        
+            <div id=Texto class="w3-col m8 l9">
+                <article>
+                    <h2 class="Center">Formación</h2>
+                        <Div class="Left">
+                            <p class="Left"><h3>Uneweb Instituto</h3></p>
+                            <p><i> 2018 - 2019</i></p>
+                            <p>Diplomado de Programación Web</p>
+                            <p class="Left"><h3>Universidad Tecnológica Nacional</h3></p>
+                            <p><i> 2010 - 2017</i></p>
+                            <p>Ingeniero en Sistemas de Información</p>
+                            
+                        </Div>
+                </article>
+            </div>
+        </section>
+    </div>
+
+
+    <footer>
+        <div class="Footer">
+            <span class="Center"><a href="https://ar.linkedin.com/"><i id="linkedin" class="fa-brands fa-linkedin fa-l"></i></a>
+                <a href="https://twitter.com/"> <i id="twitter" class="fa-brands fa-twitter fa-l"></i></a></span>
+        </div>
+    </footer>  
+</body>
+
+</html>

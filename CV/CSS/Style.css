@@ -1,0 +1,97 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: large;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding-inline-start: 0px;
+
+  }
+
+
+header {
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+    background-color: darkblue;
+    font-size: 50px;
+    color: white;
+}
+
+#FotoPerfil {
+    margin-top: 20px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Columna {
+    background-color: cornflowerblue;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Texto {
+    background-color: white;
+    text-align: justify;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+.Center {
+    text-align: center;
+}
+
+i {
+    padding: 20px;
+    font-size: medium;
+}
+
+p {
+    text-indent: 10%;
+    text-align: justify;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.Footer {
+    text-align: center;
+    background-color: black;
+    margin: none;
+    padding: none;
+}
+
+#linkedin, #twitter {
+    filter: invert(100%);
+    padding: 20px;
+}
+
+.Left {
+    text-align: left;
+    text-indent: 10%;
+}
+
+h1, h2, h3 {
+    padding-top: 20px;
+}
+
+.LeftMargin {
+    text-align: center;
+    margin: 20px;
+    font-size: xx-large;
+}
+
+progress {
+    display: inline-block;
+    align-items: center;
+}
