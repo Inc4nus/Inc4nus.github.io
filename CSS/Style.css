@@ -68,3 +68,7 @@ progress {
 .fixedheight {
     height: 50px;
 }
+
+.fa-solid {
+    margin: 15px
+}
